@@ -1,0 +1,103 @@
+/* ---------global style---------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  /* -----------nav section--------- */
+
+  .bg-color{
+
+    background-color: rgb(244, 233, 219);
+    
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 100px;
+  }
+
+
+  .nav-bar .nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .nav-links .nav-item{
+    list-style: none;
+  }
+
+
+  .brand{
+    font-size: 25px;
+  }
+
+/* ------------banner part-------- */
+  .nav-bar , .banner{
+    width: 1100px;
+    margin: 0 auto;
+  }
+
+
+  .banner{
+    margin-top: 50px;
+  }
+
+
+  .banner h2{
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .banner p{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+  .banner-content{
+    max-width: 700px;
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+
+  .banner img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+
+  .btn-primary{
+    margin-top: 30px;
+    background-color: rgb(172, 78, 11);
+    padding:5px 10px;
+    color: antiquewhite;
+    
+    
+  }
+
+
+  @media screen and (max-width:576px) {
+
+    .nav-bar, .nav-links{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
