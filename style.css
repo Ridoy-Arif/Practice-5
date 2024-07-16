@@ -101,3 +101,107 @@
     }
     
   }
+
+
+  /* -------------main part */
+
+
+  .main{
+    width: 1000px;
+    margin: 0 auto;
+
+  }
+
+  .team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .team-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+
+
+  .team-pic img{
+    width: 100%;
+  }
+
+
+  .team-features .text-1{
+    font-size: 3rem;
+    margin-bottom: 5px;
+  }
+
+
+  .text-3{
+    font-size: 3rem;
+    color: chocolate;
+  }
+
+
+  /* ............fact card */
+
+
+  .features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+  }
+
+
+  .facts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 30px 0;
+    gap: 100px;
+    
+    /* margin: 0 auto; */
+    
+  }
+
+
+  .text-area{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 60px;
+  }
+
+
+  .fat-card{
+    border: 1px solid red;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin-left: 60px; */
+    margin:50px  0px;
+  }
+
+
+  @media screen and (max-width:576px){
+
+    .facts{
+      grid-template-columns: repeat(1,1fr);
+    }
+    
+  }
+
+
+  
